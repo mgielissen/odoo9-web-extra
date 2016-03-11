@@ -55,7 +55,7 @@
     <!-- Snippet's Body -->
     <template id="s_latest_posts_big_picture" name="Latest Posts Big Images">
       <section class="s_latest_posts_big_picture">
-        <h2 class="text-center sans-serif">Latest Posts</h2>
+        <h2 class="text-center sans-serif">Ultimas Noticios</h2>
         <div class="js_get_posts" data-loading="true" data-template="snippet_latest_posts.s_latest_posts_big_picture_template"/>
       </section>
     </template>
@@ -72,7 +72,7 @@
             <figcaption>
               <h2 t-field="p.name"/>
               <p t-field="p.subtitle"/>
-              <a t-att-href="'/blog/%s/post/%s' % (p.blog_id.id, p.id)">Read More</a>
+              <a t-att-href="'/blog/%s/post/%s' % (p.blog_id.id, p.id)">Leer Mas</a>
             </figcaption>
           </div>
         </figure>
